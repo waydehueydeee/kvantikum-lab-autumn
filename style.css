@@ -5,7 +5,7 @@
   margin: 0;
 
   /* border: 1px rgb(139, 0, 0) solid; */
-  background-color: #161616;
+  background-color: #fff;
 
   font-size: 32px;
 
@@ -23,7 +23,7 @@
   width: 120px;
   margin: 10px;
   border-radius: 100%;
-  border: 4px rgb(103, 103, 255) solid;
+  /* border: 4px #77aaff solid; */
 }
 
 .nav__kvant-logo:hover {
@@ -32,7 +32,7 @@
 }
 
 .nav {
-  border-bottom: 4px rgb(103, 103, 255) solid;
+  border-bottom: 4px #77aaff solid;
 }
 
 .nav__list {
@@ -53,11 +53,14 @@
 
   padding: 10px;
   margin: 5px;
-  border: 2px rgb(103, 103, 255) solid;
+
+  color: #77aaff;
+  border: 3px #77aaff solid;
   border-radius: 20px;
 }
 
 .nav__list-el:hover {
   transition: 0.15s;
-  background-color: rgb(103, 103, 255);
+  background-color: #77aaff;
+  color: #fff;
 }
