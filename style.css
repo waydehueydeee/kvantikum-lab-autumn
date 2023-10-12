@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+
+  /* border: 1px rgb(139, 0, 0) solid; */
+  background-color: #161616;
+
+  font-size: 32px;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.nav__kvant-logo {
+  width: 120px;
+  margin: 10px;
+  border-radius: 100%;
+  border: 4px rgb(103, 103, 255) solid;
+}
+
+.nav__kvant-logo:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.nav {
+  border-bottom: 4px rgb(103, 103, 255) solid;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__list li {
+  display: flex;
+}
+
+.nav__list-el {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+
+  padding: 10px;
+  margin: 5px;
+  border: 2px rgb(103, 103, 255) solid;
+  border-radius: 20px;
+}
+
+.nav__list-el:hover {
+  transition: 0.15s;
+  background-color: rgb(103, 103, 255);
+}
