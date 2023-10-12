@@ -72,12 +72,13 @@
 .main__title {
   text-align: center;
   margin-top: 30px;
-  font-size: 40px;
+  margin-bottom: 80px;
+  font-size: 44px;
   font-weight: 500;
 }
 
 .section__child-card-photo {
-  width: 325px;
+  width: 250px;
   border-radius: 40px;
   border: 8px #77aaff solid;
 }
@@ -102,10 +103,49 @@
 }
 
 .wrapper-2 {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
 .section {
   margin-top: 100px;
+}
+
+.section-conteiner {
+  width: 1660px;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.section-right {
+  width: 1000px;
+  margin: 0 auto;
+  margin-left: 80px;
+}
+
+.section-right__title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.section-right__line-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-right__web-photo {
+  width: 30%;
+  border-radius: 40px;
+  margin: 20px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.section-right__web-photo:hover {
+  box-shadow: 16px 16px 0px 0px rgba(132, 169, 233, 1);
+  transform: scale(1.35);
 }
