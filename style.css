@@ -68,10 +68,10 @@
   margin-top: 60px;
 }
 
-.main__child-list-title {
+.main__title {
   text-align: center;
   margin-top: 30px;
-  font-style: 50px;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -85,11 +85,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 
-  border: #d5e5ff 6px solid;
+  border: #77aaff 6px solid;
   border-radius: 50px;
   padding: 10px;
+
+  box-shadow: 16px 16px 0px 0px rgba(132, 169, 233, 0.3);
 }
 
 .section__child-name {
