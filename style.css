@@ -146,6 +146,6 @@
 }
 
 .section-right__web-photo:hover {
-  box-shadow: 16px 16px 0px 0px rgba(132, 169, 233, 1);
-  transform: scale(1.35);
+  /* box-shadow: 16px 16px 0px 0px rgba(132, 169, 233, 1); */
+  transform: scale(1.3);
 }
