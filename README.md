@@ -1,3 +1,3 @@
-# Сайт осеннего лагера Квантикум Лаб
+# Сайт осеннего лагеря Квантикум Лаб
 
 https://waydehueydeee.github.io/web-course-kvant/
