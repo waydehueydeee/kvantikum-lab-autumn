@@ -54,3 +54,11 @@ a:hover {
 hr {
   color: purple;
 }
+
+
+.moodbord{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  border: none;
+}
